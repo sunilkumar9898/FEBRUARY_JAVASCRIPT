@@ -50,7 +50,7 @@
                 header div:nth-child(3) {
                     display: block;
                     margin-right: 20px;
-                    background-image: url("/FEBRUARY_JAVASCRIPT/img/hemburger.png");
+                    background-image: url("hemburger.png");
                     background-size: cover;
                     background-repeat: no-repeat;
                     object-fit: cover;
@@ -387,11 +387,12 @@
             });
 
             let div = document.createElement("div");
-            div.classList.add = "navbar";
+        div.classList.add("navbar");
+        console.log(div);
             let div3 = document.createElement("div");
             let img = document.createElement("img");
             img.classList.add = "image";
-            img.src = "/FEBRUARY_JAVASCRIPT/img/moglix_logo_red@3x.webp";
+            img.src = "moglix_logo_red@3x.webp";
 
             let div1 = document.createElement("div1");
             let li = document.createElement("a");
